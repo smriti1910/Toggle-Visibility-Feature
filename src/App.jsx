@@ -1,4 +1,5 @@
 import React,{useState} from 'react'
+import icon from './assets/icon.svg';
 import './App.css'
 
 function App() {
@@ -26,7 +27,7 @@ function App() {
   return (
     <React.Fragment>
       <div className='main-div'>
-        <img src='src/assets/icon.svg' alt="icon" width={90} height={90}></img>
+        <img src={icon} alt="icon" width={90} height={90}></img>
         <h2>Name: {name}</h2>
         <p>Registration No: {regno}</p>
         {/* <p>{student}</p> */}
